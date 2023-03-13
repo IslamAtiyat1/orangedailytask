@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+ body{
+    background-color:rgb(168,215,208); 
+ }
+ 
+      table{
+
+
+background-color:rgb(255, 255, 255)
+      } 
+      h1{
+        text-align: center;
+      }
+    </style>
+</head>
+<body>
+    
+   <h1 >Survey Form</h1> 
+   <table align="center">
+    <tr><td>Name</td><td><input type="text" required placeholder="Enter your name"></td></tr>
+    <tr><td>Email</td><td><input type="email" required placeholder="Enter your Email"></td></tr>
+    <tr><td>Age</td><td><input type="number" id="quantity" name="quantity" min="1" max="5"required placeholder="Age"></td></tr>
+    <tr><td>Which option best describes your current role? </td><td><select id="Country" name="Country" >
+      <option value="Student">Student</option>
+      <option value="Teacher">Teacher</option>
+    </select></td></tr>
+<tr><td>How likely is that you would recommend freeCodeCamp to a friend? </td><td><input type="radio" required>Definitely</label><br><input type="radio">Maybe</label><br><input type="radio">Not sure</label></tr>
+     
+    <tr><td>what do you like most in FCC: </td><td><select id="Country" name="Country" >
+        <option value="select an option">select an option</option>
+        <option value="select an option">select an option</option>
+      </select></td></tr>
+    <tr><td>Things that should be improved in the future (Check all that apply)
+         </td><td><input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+        <label for="vehicle1">Front-end Projects</label><br>
+        <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+        <label for="vehicle2">Back-end Projects</label><br><input type="checkbox" id="vehicle1" name="vehicle1" value="Bike"> <label for="vehicle2">Data Visualization</label></td></tr>
+      
+  </table>
+
+
+
+</body>
+</html>

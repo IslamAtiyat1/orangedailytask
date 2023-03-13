@@ -1,0 +1,26 @@
+
+body{
+ background-color:antiquewhite;
+}
+.paragraph1{
+ border: 2px solid black;
+ width: auto;
+ background-color: rgb(255, 255, 255);
+ clear: both;
+ padding: 20px;
+}
+.paragraph2{
+ border: 2px dashed black;
+ width: auto;
+ background-color: rgb(255, 255, 255);
+ clear: both;
+ color: rgb(255, 0, 0);
+ padding: 20px;
+}
+.paragraph3{
+ border: 2px solid black;
+ background-color: rgb(255, 255, 255);
+ width: auto;
+ clear: both;
+ padding: 20px;
+}

@@ -1,0 +1,32 @@
+body {
+  background-color: white;
+}
+.nav1 {
+  float: left;
+}
+.footer {
+  background-color: gainsboro;
+}
+.nav2 {
+  float: right;
+}
+li {
+  color: grey;
+  display: inline;
+}
+.Google {
+  font-size: 50pt;
+  margin: auto;
+  display: block;
+  padding: 20px;
+  text-align: center;
+}
+.search {
+  border: 2px solid black;
+  width: 50%;
+  margin: auto;
+}
+.buttono {
+  display: inline;
+  margin: auto;
+}
