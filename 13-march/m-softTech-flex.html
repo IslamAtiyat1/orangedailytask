@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>M-softTech - flex</title>
+    <style>
+        body{
+            height: 800px;
+            margin: 0%;
+        }
+        .main{
+            display: flex;
+            width: 100%;
+            height: 700px;
+            
+        }
+        .left{
+            width: 25%;           
+            height: 700px;
+            background-color: rgb(61, 61, 125);
+        }
+        .right{
+            
+            width: 70%;
+            height: 700px;
+            background-color: rgb(57, 57, 97);
+        }
+        .m{
+            color: red;
+        }
+        .hh{
+            width: 100%;
+            height: 40px;
+            color: white;
+            text-align: center;
+            
+        }
+        .dashboard
+        {           
+            background-color: rgb(57, 57, 97);
+            margin-bottom: 10px;
+            text-align: justify;
+            height: 40px;
+        }
+        .icon{
+            width: 20px;
+            height: 20px;
+            border-radius: 100%;
+            padding-right: 15px;
+        }
+        .nav{
+            text-decoration: none;
+            color: rgb(195, 189, 189);   
+        }
+        .nav2{
+            text-decoration: none;
+            color: white;
+        }
+        .menu{
+            background-color: rgb(61, 61, 125); 
+            margin-bottom: 10px;
+            text-align: justify;
+            padding: 5px;
+            height: 40px;
+        }
+        .head, .mid, .title, .profile, .htable, .hchart, .last{
+            display: flex;
+        }
+        h2, .author, .num{
+            color: white;
+        }
+        h2{
+            padding-left: 20px;
+        }
+        .ux{
+            color: gainsboro;
+        }
+        .icon2{
+            width: 30px;
+            height: 30px;
+            border-radius: 100%;
+            padding: 25%;
+        }
+        .icon3{
+            width: 30px;
+            height: 30px;
+        }
+        .mu{
+            width: 30px;
+            height: 30px;
+        }
+        .profile{
+            width: 15%;
+            
+        }
+        .title{
+            width: 75%;
+        }
+        
+        .ux, .name{
+            font-size: smaller;
+            width: 65px;
+        }
+        .row{
+            width: 20%;
+            height: 100px;
+            background-color: rgb(61, 61, 125) ;
+            margin: auto;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            padding-left: 30px;
+        }
+        .num, .cc{
+            font-size:20px;
+        }
+        .cc{color:gray}
+        .one{
+            width: 60%;
+            height: 300px;
+            background-color: rgb(61, 61, 125) ;
+            margin-right: 2%;
+        }
+        .two{
+            width:30%;
+            height: 300px;
+            background-color: rgb(61, 61, 125) ;
+            
+        }
+        .last{
+            margin-top:80px;
+            margin-left: 75px;
+        }
+        .top, .total{
+            width: 80%;
+            color: red;
+        }
+        .sell{
+            width:15%; 
+            color:red; 
+            background-color: gainsboro;
+        }
+        .aa{
+            font-size: smaller;
+            text-decoration: none;
+        }
+        table{
+            margin-top: 10px;
+            width: 100%;
+        }
+        .table th, .table td{
+            padding: 6px;
+            text-align: left;
+            color: white;
+        }
+        .tr{
+            border-bottom: 1px solid gray;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="left">
+            <div class="hh"><h1><span class="m">M</span>-softTech</h1></div>
+            <div class="vertical-menu">
+                <div  class="dashboard"><img src="imgs/dashboard.png" class="icon"><a href="#" class="nav2">Dashboard</a></div>
+                <div class="menu"><img src="imgs/customers.png" class="icon"><a href="#" class="nav">customers</a></div>
+                <div class="menu"><img src="imgs/projects.png" class="icon" ><a href="#"  class="nav">projects</a></div>
+                <div class="menu"><img src="imgs/order.png"class="icon" ><a href="#"  class="nav">orders</a></div>
+                <div class="menu"><img src="imgs/inventory.png"class="icon" ><a href="#"  class="nav">Inventory</a></div>
+                <div class="menu"><img src="imgs/profile-icon.webp" class="icon"><a href="#"  class="nav">Accounts</a></div>
+                <div class="menu"><img src="imgs/tasks.png" class="icon"><a href="#"  class="nav">Tasks</a></div>
+            </div>
+        </div>
+        <div class="right">
+            <div class="head">
+                <div class="title"><h2>Dashboard</h2></div>
+                <div class="profile"><img  src="imgs/profile-icon.webp" class="icon2">
+                    <div class="author"><p class="name">Manoj Adhikari</p>
+                    <p class="ux">UX/UI Designer</p></div> </div>
+                </div>
+                <div class="mid">
+                    <div class="row">
+                        <div class="market"><span class="num">67</span>
+                            <p class="cc">Customers</p></div>
+                        <img src="imgs/customers.png" class="icon3">
+                    </div>                
+                    <div class="row">
+                        <div class="market"><span class="num">88</span>
+                            <p class="cc">projects</p></div>
+                        <img src="imgs/projects.png" class="icon3">
+                    </div> 
+                    <div class="row">
+                        <div class="market"><span class="num">99</span>
+                            <p class="cc">orders</p></div>
+                        <img src="imgs/order.png" class="icon3">
+                    </div> 
+                    <div class="row">
+                        <div class="market"><span class="num">78</span>
+                            <p class="cc">Tasks</p></div>
+                        <img src="imgs/tasks.png" class="icon3">
+                    </div>
+                </div>
+            <div class="last">
+                <div class="one">
+                    <div class="htable"><span class="top">Top selling project</span>
+                        <span class="sell"><a href="" class="aa"> Sell All</a></span></div>
+                    <table class="table">
+                        <tr class="tr">
+                            <th>Company</th>
+                            <th>Contact</th>
+                            <th>Country</th>
+                        </tr>
+                        <tr class="tr">
+                            <td>Alferds</td>        
+                            <td>Maria Andres</td>        
+                            <td>Germany</td>        
+                        </tr>
+                        <tr class="tr">
+                            <td>centro commercial</td>        
+                            <td>fransiso chang</td>        
+                            <td>Mexico</td>    
+                        </tr>
+                        <tr class="tr">
+                            <td>Emsit Handel</td>        
+                            <td>Roland Mendel</td>        
+                            <td>Ausria</td>    
+                        </tr>
+                        <tr>
+                            <td>Island trading</td>        
+                            <td>Helen Bennet</td>        
+                            <td>UK</td>    
+                        </tr>
+                    </table>
+                </div>
+                <div class="two">
+                <div class="hchart"><span class="total">Total sale</span>
+                    <span class="sell"><a href="" class="aa">Sell All</a></span></div>
+                <div>
+                    <img src="imgs/percent.png" style="border-radius: 100%; margin-top: 20%; margin-left: 20%;" >
+                </div>
+            </div>
+            </div>
+            
+        </div>
+    </div>
+</body>
+</html>

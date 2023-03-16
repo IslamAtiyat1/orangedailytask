@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+ <style>
+   body{
+      
+      
+       background-color: rgb(168,191,126);
+    }
+    .box_container{
+       
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        gap: 5px;
+        padding: 10px;
+        background-color: rgb(160,208,234);
+        height: 500px;
+       width:500px;
+       margin-top: 10%;
+       margin-left: 30%;
+       text-align: center;
+       font-size: 20pt;
+    }
+    .div2, .div3, .div4, .div5{
+        gap: 5px;
+        padding: 5px;
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+    }
+    .div1{
+        height: 70px;
+        grid-column: 1/span 4;
+        box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+        background-color: rgb(241,251,235);
+    }
+    .div2, .div3, .div4, .div5{
+       
+        height:  70px;
+        grid-column: 1/span 4;
+    }
+ .div_c1,.div_c5,.div_c9,.div_c13{
+    background-color: rgb(239,239,239);
+    height:  70px;
+    
+        grid-column: 1/span 1;
+        box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+ }
+ .div_c1,.div_c5,.div_c9,.div_c13{
+     background-color: rgb(239,239,239);
+    height:  70px;
+        grid-column: 1/span 1;
+        box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+ }
+ .div_c13{
+    background-color:rgb(252,159,169);
+ }
+ .div_c2,.div_c6,.div_c10,.div_c14{
+    background-color: rgb(239,239,239);
+    height: 70px;
+        grid-column: 2/span 1;
+        box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+ }
+ .div_c3,.div_c7,.div_c11,.div_c15{
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    background-color: rgb(239,239,239);
+    height:  70px;
+        grid-column: 3/span 1;
+ }
+ .div_c4,.div_c8,.div_c12,.div_c16{
+    height:  70px;
+        grid-column: 4/span 1;
+        background-color: rgb(239,255,147);
+        box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+ }
+ </style>
+</head>
+<body>
+    <div class="main">
+    <div class="box_container">
+       <div class="div1">
+
+       </div> 
+       <div class="div2">
+        <div class="div_c1"><p>1</p></div>
+        <div class="div_c2"><p>2</p></div>
+        <div class="div_c3"><p>3</p></div>
+        <div class="div_c4"><p>+</p></div>
+       </div> 
+       <div class="div3">
+        <div class="div_c5"><p>4</p></div>
+        <div class="div_c6"><p>5</p></div>
+        <div class="div_c7"><p>6</p></div>
+        <div class="div_c8"><p>-</p></div>
+       </div> 
+       <div class="div4">
+        <div class="div_c9"><p>7</p></div>
+        <div class="div_c10"><p>8</p></div>
+        <div class="div_c11"><p>9</p></div>
+        <div class="div_c12"><p>*</p></div>
+       </div> 
+       <div class="div5">
+        <div class="div_c13"><p>C</p></div>
+        <div class="div_c14"><p>0</p></div>
+        <div class="div_c15"><p>=</p></div>
+        <div class="div_c16"><p>/</p></div>
+       </div> 
+    </div>
+</div>
+</body>
+</html>

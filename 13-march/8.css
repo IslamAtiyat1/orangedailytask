@@ -1,0 +1,157 @@
+body {
+    background-color: rgb(27, 32, 61);
+  }
+  .flex-container{
+    display: flex;
+    width: 100%;
+    height: fit-content;
+  }
+
+.navbar{
+    color: white;
+    width:20%;
+    height: 1000px;
+    justify-content: left;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #272c4a;
+    overflow: hidden;
+    padding-top: 40px;
+}
+li {
+  display: block;
+    padding: 20px;
+    margin: 5px;
+text-align: left;
+  }
+  li span{
+    padding: 10px;
+
+  }
+li:hover {
+  color: #f1f1f1;
+  background-color:#1b203d;
+
+    
+  }
+
+ .header{
+    width: 80%;
+   
+    display: flex;
+    align-content: center;
+    position:fixed;
+    left: 400px;
+    margin: 0px;
+    height: 200px;
+    padding: 0px;
+ }
+
+ .profile{
+    width:50%;
+    display: flex;
+    justify-content: right;
+    position: relative;
+    left: 300px;
+    color: aliceblue;
+    
+  }
+  .Dashboard{
+    width:30%;
+    display: flex;
+    justify-content: center;
+
+  }
+  
+  .part2{
+    width:70%;
+    display: flex;
+    flex-direction: column;
+    align-content:center;
+    margin: auto;
+  
+    
+  
+ }
+ .boxes{
+    width:80%;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+  height:100px;
+  position: fixed;
+  margin: auto;
+    left: 50px;
+    top: -200px;
+ }
+  .box{
+    display: flex;
+     width: 20%;
+ height:200px;
+ background-color: #272c4a;
+ position: relative;
+    left:400px;
+    top: 350px;
+   font-size: 20pt;
+   align-content:space-between;
+   padding: 10px;
+  }
+  .box p span{
+	font-size: 20px;
+	font-weight: 400;
+	color: #818181;
+}
+.box-icon{
+	font-size: 40px!important;
+    float: right;
+    margin-top: 35px!important;
+    color: #818181;
+    padding-right: 10px;
+}
+
+.part3{
+    display: flex;
+  align-items: center;
+  justify-content: space-around;
+        margin: auto;
+    padding: 10px;
+    height: 800px;
+    position: fixed;
+    top: 100px;
+    left: 600px; 
+    clear: both;
+   
+ 
+    flex-flow: row;
+
+}
+table{
+    width: 100%;
+    background-color: #272c4a;
+    font-size: 20pt;
+ }
+ td, th {
+text-align: left;
+padding:15px;
+color: #ddd;
+border-bottom: 1px solid #81818140;
+}
+.diagram{
+    align-content: right;
+    width: 50%;
+    background-color: #272c4a;
+height: 200px;
+display: flex;
+position: relative;
+right: -150px;
+clear: both;
+text-align: center;
+}
+
+.table{
+    height: 200px;
+    width: 50%;
+    display: flex;
+}
