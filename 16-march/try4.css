@@ -1,0 +1,82 @@
+.div-cont{
+    display: flex;
+
+ flex-direction: column;
+    height: 800px;
+
+    padding: 10px;
+    margin: auto;
+}
+.nav-2 ul{
+   
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+  }
+  .nav-2 li {
+      display: inline-block;
+  font-weight: bold;
+  }
+  
+ 
+  .nav-2 li a {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 18px 30px;
+    text-decoration: none;
+  }
+  .header{
+    background-color:rgb(245,245,245);
+width: 70%;
+height: 50px;
+}
+.main{
+    display: flex;
+    height: 600px;
+    margin: auto;
+}
+.side{
+    width: 20%;
+    height: 700px;
+    padding: 20px;
+}
+.side2{
+    width: 80%;
+    height: 600px;
+}
+.grid3{
+    width: 80%;
+    height:400px ;
+    margin: auto;
+    }
+    .grid4{
+       display: flex;
+        width: 80%;
+    height:400px;
+    margin: auto;
+    }
+    .footer{
+        display: flex;
+        padding: 10px;
+        text-align: center;
+        height: 300px;
+    }
+    .footer img{
+            padding: 40px;
+        width:100px;
+    height: 100px;
+    margin: auto;
+     }
+     .footer h3{
+    background-color: #ffffff;
+    width: 50%;
+    margin: auto;
+     }
+     .item1,.item2,.item3,.item4{
+        background-color: rgb(245,245,245);
+        width: 25%;
+        height: 80px;
+        margin: auto;      
+     }
